@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@300&display=swap');
+    </style>
+  </defs>
+
+  <!--
+    BARON navigatielogo — kleine formaten (navigatiebalk)
+    Gebruik op donkere achtergrond #0B1624
+    Voor lichte achtergrond: verander fill="#F6F4F0" naar fill="#0B1624"
+  -->
+
+  <text x="8" y="32"
+    text-anchor="start"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-size="26" font-weight="500" letter-spacing="8"
+    fill="#F6F4F0">BARON</text>
+
+  <text x="10" y="44"
+    text-anchor="start"
+    font-family="'Inter', system-ui, sans-serif"
+    font-size="7" font-weight="300" letter-spacing="4"
+    fill="#A8B4BF">CHRIS</text>
+
+</svg>

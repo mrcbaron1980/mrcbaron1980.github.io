@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 110" width="480" height="110">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@300&display=swap');
+    </style>
+  </defs>
+
+  <!--
+    BARON hoofdlogo — grote formaten (hero, print CV, visitekaartje)
+    Gebruik op donkere achtergrond #0B1624
+    Voor lichte achtergrond: verander fill="#F6F4F0" naar fill="#0B1624"
+  -->
+
+  <text x="240" y="82"
+    text-anchor="middle"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-size="72" font-weight="500" letter-spacing="10"
+    fill="#F6F4F0">
+    <tspan font-size="96" baseline-shift="-8">B</tspan><tspan font-size="72">ARO</tspan><tspan font-size="86" baseline-shift="-5">N</tspan>
+  </text>
+
+  <text x="242" y="102"
+    text-anchor="middle"
+    font-family="'Inter', system-ui, sans-serif"
+    font-size="10" font-weight="300" letter-spacing="7"
+    fill="#A8B4BF">CHRIS</text>
+
+</svg>
