@@ -45,11 +45,17 @@
     nav.scrolled { box-shadow: 0 2px 24px rgba(0,0,0,0.25); }
 
     .nav-brand { text-decoration: none; }
-    .nav-logo {
-      height: 40px;
-      width: auto;
-      display: block;
+    .nav-home { display: flex; align-items: center; }
+    .nav-home-label {
+      font-family: var(--font-body);
+      font-size: 0.8125rem;
+      font-weight: 400;
+      color: var(--color-silver);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.2s;
     }
+    .nav-home:hover .nav-home-label { color: #fff; }
     .nav-brand-name {
       font-family: var(--font-display);
       font-size: 1.35rem;
@@ -118,6 +124,13 @@
       align-items: flex-end;
       justify-content: space-between;
       gap: 40px;
+    }
+    .cv-header-logo {
+      height: 80px;
+      width: auto;
+      display: block;
+      margin-bottom: 32px;
+      opacity: 0.95;
     }
     .page-header-left {}
     .page-label {
@@ -509,8 +522,8 @@
 
 <!-- NAVIGATION -->
 <nav id="main-nav">
-  <a href="index.html" class="nav-brand">
-    <img src="assets/logo-baron-nav.svg" alt="Chris Baron" class="nav-logo" />
+  <a href="index.html" class="nav-brand nav-home">
+    <span class="nav-home-label">Home</span>
   </a>
   <div class="nav-right">
     <ul class="nav-links">
@@ -529,6 +542,7 @@
 <!-- PAGE HEADER -->
 <header class="page-header">
   <div class="page-header-left">
+    <img src="assets/logo-baron-main.svg" alt="Chris Baron" class="cv-header-logo" />
     <p class="page-label" data-nl>Professioneel profiel</p>
     <p class="page-label" data-en>Professional Profile</p>
     <h1 class="page-title" data-nl>Werkervaring<br>& Profiel</h1>
